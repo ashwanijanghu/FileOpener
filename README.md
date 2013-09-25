@@ -15,9 +15,9 @@ Sample use:
 ----------
 ```````javascript
 window.plugins.fileOpener.open("file:///sdcard/Android/data/com.example.application/document.doc");
-window.plugins.fileOpener.open("file:///sdcard/Android/data/com.example.application/manual.pdf");
-window.plugins.fileOpener.open("file:///sdcard/Android/data/com.example.application/presentation.ppt");
-window.plugins.fileOpener.open("file:///sdcard/Android/data/com.example.application/image.jpg");
+window.plugins.fileOpener.open("http://download.wavetlan.com/SVV/Media/HTTP/H264/Talkinghead_Media/H264_test1_Talkinghead_mp4_480x360.mp4");
+window.plugins.fileOpener.open("file:///android_asset/www/2.mp4");
+window.plugins.fileOpener.open("file:///sdcard/image.jpg");
 ```````
 
 After you run the command above, Android device will either open the file with proper external application installed on your device or ask you which application to use, if you haven't set before which application to use to open the specific type of file. What is great, when you exit the external app, Android will return to your application.
