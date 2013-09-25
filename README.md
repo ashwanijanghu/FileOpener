@@ -5,7 +5,7 @@ Simple plugin which allows you to open popular files stored locally or in assets
 
 Adding the Plugin to your project
 -----------
-    $ cordova plugin add https://github.com/don/FileOpener.git
+    $ cordova plugin add https://github.com/michalzubkowicz/FileOpener.git
 
 Using the plugin
 ===========
@@ -27,6 +27,8 @@ RELEASE NOTES
 -------------
 Aug 1, 2013
 Addedd Asset Support (if file is in assets it`s copied to temp directory)
+
+
 Forked Oct 25,2013
 
 
