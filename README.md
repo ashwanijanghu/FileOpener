@@ -6,7 +6,9 @@ Simple plugin which allows you to open popular files stored locally or in assets
 Adding the Plugin to your project
 -----------
     $ cordova plugin add https://github.com/michalzubkowicz/FileOpener.git
-
+    or 
+    $ phonegap local plugin add https://github.com/michalzubkowicz/FileOpener.git
+    
 Using the plugin
 ===========
 The plugin creates the object  ``````window.plugins.fileOpener``````. To use, call the  ``````open()`````` method:
