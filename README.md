@@ -1,4 +1,4 @@
-FileOpener plugin for Phonegap
+FileOpener plugin for Phonegap >3.0 (last tested on 3.5)
 =============
 
 Simple plugin which allows you to open popular files stored locally or in assets on your device with Phonegap for Android.
